@@ -1,0 +1,152 @@
+
+ header {
+   background: rgb(15, 15, 15);
+
+   
+ }
+
+.foto {
+   margin-left: 540px;
+   width: 600px;
+}
+
+
+  li {
+    list-style: none;
+ }
+
+ .cabecario  .cabecario-continua{
+    display: flex;
+    flex-wrap: wrap; 
+    font-size: 1.5rem;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 200px;
+     
+ }
+ 
+ 
+
+ .cabecario-continua li {
+    color: rgb(24, 24, 24);
+    background: rgb(248, 248, 248);
+    padding: 5px;
+    border-radius: 2px;
+    border: solid 1px rgb(240, 240, 240);
+   
+    
+ }
+
+ @media (max-width: 1230px){
+   p {
+      font-size: 1rem;}
+
+      .foto {
+         margin-left: 420px;
+         width: 500px;
+      }
+}
+
+@media (max-width: 1113px){
+   .info {
+      background: rgb(218, 218, 218);
+      padding: 5px 15px;
+      border-radius: 4px;
+      border: solid 1px black;
+      justify-self: right;
+      align-self: center;}
+}
+
+
+@media (max-width: 953px){
+
+   .new {width: 200px;}
+
+   .foto {margin-left: 290px;
+      width: 400px;}
+  
+   
+ }
+
+
+@media (max-width: 865px){
+
+   .info {
+      background: rgb(218, 218, 218);
+      padding: 5px ;
+      border-radius: 4px;
+      border: solid 1px black;
+      justify-self: start;
+      align-self: center;
+      font-size: 13px;
+   }  
+   
+   .foto {
+      margin-left: 270px;
+      width: 400px;
+   }
+   }
+
+   @media (max-width: 857px){
+
+   .inicio{
+      grid-template-columns: 1fr;
+   }
+   .naruto p {
+      padding: 10px;
+      font-size: 1.2rem;
+      }
+      
+.info {
+   background: rgb(218, 218, 218);
+   padding: 5px 15px;
+   border-radius: 4px;
+   border: solid 1px black;
+   justify-self: start;
+   align-self: center; 
+   font-size: 20px;
+   margin-left: 10px;}
+ }
+
+ @media (max-width: 800px){
+   .foto {
+      margin-left: 210px;
+      width: 300px;
+   }
+}
+
+@media (max-width: 700px)
+{
+   .foto {
+      margin-left: 170px;
+      width: 250px;
+   }
+}
+
+
+
+@media (max-width: 500px)
+{
+   .foto {
+      margin-left: 150px;
+      width: 200px;
+   }
+}
+
+
+@media (max-width: 400px)
+{
+   .foto {
+      margin-left: 130px;
+      width: 180px;
+   }
+}
+
+
+@media (max-width: 350px)
+{
+   .foto {
+      margin-left: 110px;
+      width: 180px;
+   }
+}

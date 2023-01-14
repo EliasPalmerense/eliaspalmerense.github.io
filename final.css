@@ -1,0 +1,39 @@
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.final {
+    font-size: 2rem;
+    color: rgb(211, 211, 211);
+    margin: 0px;}
+
+
+.finalb{
+    color: rgb(211, 211, 211);
+}
+.finalp{
+    font-size: 2rem;
+    color: rgb(211, 211, 211);
+    margin: 40px;
+    margin-top: 170px;
+    
+}
+
+
+
+
+
+
+@media (max-width: 857px){
+    .finali{
+    align-self: flex-end;
+        
+    }
+    .final  {
+        font-size: 20px;
+    }
+    .finalp{font-size: 23px;}    
+}
+
+
